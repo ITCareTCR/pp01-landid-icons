@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BladeUI\Heroicons;
+namespace ITCareTCR\LandID\Icons;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Contracts\Container\Container;

@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ITCareTCR\\LandID\\Icons": "src"
+            "ITCareTCR\\LandID\\Icons\\": "src"
         }
     },
     "autoload-dev": {
