@@ -30,7 +30,7 @@ final class LandIDIconServiceProvider extends ServiceProvider
 	{
 		if ($this->app->runningInConsole()) {
 			$this->publishes([
-				__DIR__ . '/../resources/svg' => public_path('vendor/blade-heroicons'),
+				__DIR__ . '/../resources/svg' => public_path('vendor/lidamenities'),
 			], 'lidamenities');
 
 			$this->publishes([
