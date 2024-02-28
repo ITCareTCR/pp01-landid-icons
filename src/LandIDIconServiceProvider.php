@@ -31,11 +31,11 @@ final class LandIDIconServiceProvider extends ServiceProvider
 		if ($this->app->runningInConsole()) {
 			$this->publishes([
 				__DIR__ . '/../resources/svg' => public_path('vendor/blade-heroicons'),
-			], 'blade-heroicons');
+			], 'lidamenities');
 
 			$this->publishes([
 				__DIR__ . '/../config/lidamenities.php' => $this->app->configPath('lidamenities.php'),
-			], 'blade-heroicons-config');
+			], 'lidamenities-config');
 		}
 	}
 }
