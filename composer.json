@@ -1,8 +1,8 @@
 {
-    "name": "blade-organization/blade-heroicons",
+    "name": "itcaretcr/landid-icons",
     "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
     "keywords": ["Blade", "Heroicons", "Laravel"],
-    "homepage": "https://github.com/blade-organization/blade-heroicons",
+    "homepage": "https://github.com/ITCareTCR/pp01-landid-icons",
     "license": "MIT",
     "authors": [
         {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "ITCareTCR\\LandID\\Icons": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "ITCareTCR\\LandID\\Icons\\LandIDIconServiceProvider"
             ]
         }
     },
